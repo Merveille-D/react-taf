@@ -1,0 +1,24 @@
+.mot{
+   color:white; 
+   text-shadow: -1px -1px 0 purple,  1px -1px 0 purple,1px  1px 0 purple,1px  1px 0 purple
+  }
+
+@media  screen and (min-width: 1301px) {
+   
+   .finanfa{
+      font-size: 220px;
+   }
+}
+
+@media  screen and (max-width: 1300px) {
+   
+   .finanfa{
+      font-size: 150px;
+   }
+}
+@media  screen and (max-width: 1000px) {
+   
+   .finanfa{
+      font-size: 80px;
+   }
+}

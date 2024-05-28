@@ -1,0 +1,24 @@
+.Carousel{
+    position: relative;
+   }
+    .span1{
+    border-radius: 15px;
+   }
+ 
+   .carousel-text{
+     
+     position: absolute;
+     margin-top:-34%;
+   }
+ .overlay{
+     background: rgba(255, 0, 234, 0.212);
+    padding-left: 6px;
+    padding-right: 6px; 
+    color: white;
+ }
+ .overlay2{
+   background: rgba(255, 254, 242, 0.788);
+    padding-left: 8px;
+    padding-right: 8px; 
+    color: #624097;
+ }

@@ -1,0 +1,18 @@
+.ser{
+    margin:auto;
+    justify-content:center;
+    text-align: center;
+    color:#624097;
+   
+}
+.div0{
+    max-width: 22rem;
+    min-width: 22rem;
+    background-color: white;
+    border-radius: 22px 22px 0px 0px;
+    border: 2px solid rgb(228, 204, 225);
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+

@@ -1,0 +1,28 @@
+.case{
+    background: linear-gradient(to right, rgb(101, 50, 118), rgb(105, 31, 74),rgb(111, 13, 29));
+    color:white;
+    display:flex;
+    margin:auto;
+    width:70%;
+    font-size:25px;  
+    margin-top:55px; 
+ }
+
+ .vertical {
+    width: 0.5px;
+    height:40px; 
+    background-color: white;
+    padding:1px;
+    margin-left:10px;
+  }
+
+  @media  screen and (min-width:765px) and (max-width: 995px)  {
+    .case{
+        font-size:15px;  
+    }
+  }
+  @media  screen and (max-width: 764px){
+    .case{
+        font-size:9px;  
+    }
+  }

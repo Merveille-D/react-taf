@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+function App(){   
+ const [titre, setTitre]=useState()
+
+ useEffect(()=>{
+  document.title=titre
+ },[titre]);
+
+  return <div className="mb-3">   
+  <input type="text" className='form-input' value={titre} onChange={(e)=> setTitre(e.target.value)}  />
+  <div className="pt-5" id="di">  </div>
+</div>
+     
 }
+        
+
+
+
+      
 
 export default App;

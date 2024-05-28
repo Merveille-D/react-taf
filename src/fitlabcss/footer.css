@@ -1,0 +1,83 @@
+ .a2{
+    color: white;
+    padding-left:90px;
+    padding-top:60px;
+    background:linear-gradient(to right, rgb(101, 50, 118), rgb(105, 31, 74),rgb(111, 13, 29));
+    padding:auto;
+    }
+ 
+@media  screen and (min-width: 1401px) {
+    .espace{
+        margin-left:50px;
+        margin-right:50px;
+        padding-left:110px;
+        margin-top:-25px
+    }
+    .taille{
+        width: 45%;
+      }
+  }
+
+  
+  @media  screen and (min-width: 1000px) and (max-width: 1400px) {
+    .espace{
+        margin-left:50px;
+        margin-right:50px;
+        padding-left:110px;
+        margin-top:-25px
+    }
+    .end{
+        margin-left: 49%;
+        }
+        .en{
+            margin-left: 50%;
+            }
+            .taille{
+                width: 50%;
+              }
+  }
+
+  @media  screen and (min-width: 768px) and (max-width: 999px) {
+    .end{
+        margin-left: 60%;
+        }
+        .en{
+            margin-left: 60%;
+            }
+        .espace{
+            margin-left:50px;
+            margin-right:50px;
+            padding-left:80px;
+            margin-top:-50px
+        }
+        .taille{
+            width: 60%;
+          }
+  }
+
+  @media  screen and (max-width: 767px){
+    .a2{
+        color: white;
+       padding-left: 20px;
+        padding-top:60px;
+        background:linear-gradient(to right, rgb(101, 50, 118), rgb(105, 31, 74),rgb(111, 13, 29));
+        padding:auto;
+        }
+    .end{
+        margin-top: -10%;
+        margin-left: 50%;
+        }
+        .en{
+            margin-left: 55%;
+            }
+       
+        .espace{
+            margin-top:-20%;
+        }
+        .taille{
+            width: 110%;
+          }
+        
+         }
+     
+   
